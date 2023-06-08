@@ -76,16 +76,16 @@ This Weather Service is open-source and available under the [MIT License](https:
 ## Questions
 
 At a high level, how does your system work?
-This system retrieves weather information from various weather service providers. It allows users to obtain current temperature, min/max temperature, and humidity for a given location.
+- This system retrieves weather information from various weather service providers. It allows users to obtain current temperature, min/max temperature, and humidity for a given location.
 
 What documentation, websites, papers, etc. did you consult for this assignment?
-The OpenWeatherMap current weather data documentation at https://openweathermap.org/current
+- The OpenWeatherMap current weather data documentation at https://openweathermap.org/current
 
 What third-party libraries or other tools does your application use? How did you choose each library or framework you used?
-I used the vlucas/phpdotenv library to manage environmental variables. This helps streamline the management of environment variables, improves code maintainability, and enhances the security of sensitive information used in the application
+- I used the vlucas/phpdotenv library to manage environmental variables. This helps streamline the management of environment variables, improves code maintainability, and enhances the security of sensitive information used in the application.
 
 How long did you spend on this exercise? If you had unlimited time to spend on this, how would you spend it and how would you prioritize each item?
-I did have to wait a couple of hours for the OpenWeatherMap API Key to become active, apart from that the entire code took about 45mins. The requirement specified the need to be able to integrate with weather services with ease - hence I gave priority to ensuring that the code is modular with a WeatherProvider interface and that new service classes can implement
+- I did have to wait a couple of hours for the OpenWeatherMap API Key to become active, apart from that the entire code took about 45mins. The requirement specified the need to be able to integrate with weather services with ease - hence I gave priority to ensuring that the code is modular with a WeatherProvider interface and that new service classes can implement.
 
 What software design and best practices would you implement with more time?
  - Caching the weather data for some time to serve subsequent requests. This will reduce the number of calls to API (In case the free versions have limits on the number of calls) and also to reduce redundancy.
