@@ -71,9 +71,10 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This Weather Service is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
-```
+
 
 ## Questions
+
 At a high level, how does your system work?
 This system retrieves weather information from various weather service providers. It allows users to obtain current temperature, min/max temperature, and humidity for a given location.
 
@@ -89,3 +90,4 @@ I did have to wait a couple of hours for the OpenWeatherMap API Key to become ac
 What software design and best practices would you implement with more time?
  - Caching the weather data for some time to serve subsequent requests. This will reduce the number of calls to API (In case the free versions have limits on the number of calls) and also to reduce redundancy.
  - Dependency injection to improve flexibility and testing
+
